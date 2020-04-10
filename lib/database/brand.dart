@@ -1,3 +1,27 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3fd9ef46b56ebb1bc1ad8a1e86c113b4761f8bfb93538db5dea82c5776571f61
-size 789
+import 'dart:collection';
+
+import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:uuid/uuid.dart';
+import 'dart:convert';
+
+class BrandService{
+  Firestore _firestore = Firestore.instance;
+  String ref = 'brands';
+
+  void createBrand(String name){
+    var id = Uuid();
+    String brandId = id.v1();
+
+    _firestore.collection('brands').document(brandId).setData({'brand': name});
+  }
+
+  Future<List<DocumentSnapshot>> getBrands() =>
+     _firestore.collection(ref).getDocuments().then((snaps){
+      return snaps.documents;
+    });
+
+  Future<List<DocumentSnapshot>> getSuggestions(String suggestion) =>
+      _firestore.collection(ref).where('brand', arrayContains: suggestion).getDocuments().then((snap){
+        return snap.documents;
+      });
+}
