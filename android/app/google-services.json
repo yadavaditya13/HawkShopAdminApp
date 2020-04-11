@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "283334700576",
-    "firebase_url": "https://hawkapp-e090a.firebaseio.com",
-    "project_id": "hawkapp-e090a",
-    "storage_bucket": "hawkapp-e090a.appspot.com"
+    "project_number": "642410490461",
+    "firebase_url": "https://hawkshopadmin.firebaseio.com",
+    "project_id": "hawkshopadmin",
+    "storage_bucket": "hawkshopadmin.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:283334700576:android:6f984c9cc1fe66f8b5d645",
+        "mobilesdk_app_id": "1:642410490461:android:8c97fa99b221ea7cb87bb4",
         "android_client_info": {
           "package_name": "com.example.flutterapp"
         }
       },
       "oauth_client": [
         {
-          "client_id": "283334700576-tg8j0015ag6aa7liko9imn2ls5g92nmt.apps.googleusercontent.com",
+          "client_id": "642410490461-769e4ibedj7uch4r0pkltamioe4tj9s7.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.example.flutterapp",
@@ -23,20 +23,20 @@
           }
         },
         {
-          "client_id": "283334700576-ndskm6qnv0jdg6tfdtirvs2kruo7q3tm.apps.googleusercontent.com",
+          "client_id": "642410490461-6l7e3rebfn01rb34uvvvju8cdc51ll35.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDa9bLFgrOSymHCDpkRmYxiz2rXwrHFzPc"
+          "current_key": "AIzaSyDWg0p0h9M5clGWVpRqq2YzWt_jmjU-e_E"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "283334700576-ndskm6qnv0jdg6tfdtirvs2kruo7q3tm.apps.googleusercontent.com",
+              "client_id": "642410490461-6l7e3rebfn01rb34uvvvju8cdc51ll35.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
@@ -45,27 +45,35 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:283334700576:android:73ae71dc0646f566b5d645",
+        "mobilesdk_app_id": "1:642410490461:android:7c7fea5b3b3c4c0bb87bb4",
         "android_client_info": {
           "package_name": "com.example.hawkshopadmin"
         }
       },
       "oauth_client": [
         {
-          "client_id": "283334700576-ndskm6qnv0jdg6tfdtirvs2kruo7q3tm.apps.googleusercontent.com",
+          "client_id": "642410490461-kc6v84j9hbhmrr5mlrk652rqgb7v8c0p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hawkshopadmin",
+            "certificate_hash": "1614723b980cf2c3c2a1db1d6e170ff6c4fd7f26"
+          }
+        },
+        {
+          "client_id": "642410490461-6l7e3rebfn01rb34uvvvju8cdc51ll35.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDa9bLFgrOSymHCDpkRmYxiz2rXwrHFzPc"
+          "current_key": "AIzaSyDWg0p0h9M5clGWVpRqq2YzWt_jmjU-e_E"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "283334700576-ndskm6qnv0jdg6tfdtirvs2kruo7q3tm.apps.googleusercontent.com",
+              "client_id": "642410490461-6l7e3rebfn01rb34uvvvju8cdc51ll35.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
