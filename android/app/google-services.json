@@ -45,20 +45,12 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:642410490461:android:7c7fea5b3b3c4c0bb87bb4",
+        "mobilesdk_app_id": "1:642410490461:android:e0f4f6f2e2458774b87bb4",
         "android_client_info": {
           "package_name": "com.example.hawkshopadmin"
         }
       },
       "oauth_client": [
-        {
-          "client_id": "642410490461-kc6v84j9hbhmrr5mlrk652rqgb7v8c0p.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.hawkshopadmin",
-            "certificate_hash": "1614723b980cf2c3c2a1db1d6e170ff6c4fd7f26"
-          }
-        },
         {
           "client_id": "642410490461-6l7e3rebfn01rb34uvvvju8cdc51ll35.apps.googleusercontent.com",
           "client_type": 3

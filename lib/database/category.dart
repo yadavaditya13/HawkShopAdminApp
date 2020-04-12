@@ -1,24 +1,3 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:uuid/uuid.dart';
-
-class CategoryService{
-  Firestore _firestore = Firestore.instance;
-  String ref = 'categories';
-
-  void createCategory(String name){
-    var id = Uuid();
-    String categoryId = id.v1();
-
-    _firestore.collection('categories').document(categoryId).setData({'category': name});
-  }
-
-  Future<List<DocumentSnapshot>> getCategories() =>
-     _firestore.collection(ref).getDocuments().then((snaps){
-      return snaps.documents;
-    });
-
-  Future<List<DocumentSnapshot>> getSuggestions(String suggestion) =>
-      _firestore.collection(ref).where('category', arrayContains: suggestion).getDocuments().then((snap){
-        return snap.documents;
-      });
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:0014ac731887df5b20246cf71ff9b1003ee588d9ad2ee5749e679006186c984a
+size 766

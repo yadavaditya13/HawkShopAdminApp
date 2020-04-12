@@ -1,18 +1,3 @@
-import 'package:flutter/material.dart';
-import 'package:hawkshopadmin/providers/app_states.dart';
-import 'package:hawkshopadmin/providers/product_providers.dart';
-import 'package:hawkshopadmin/screen/dashboard.dart';
-import 'package:provider/provider.dart';
-
-void main(){
-  runApp(MultiProvider(
-    providers: [
-      ChangeNotifierProvider.value(value: AppState()),
-      ChangeNotifierProvider.value(value: ProductProvider()),
-    ],
-    child: MaterialApp(
-    debugShowCheckedModeBanner: false,
-    home: Dashboard(),
-    ),
-  ));
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:39fb3ca21761aec7e15de721f667451ff1750dc255e5b164bef74752dc96aa9a
+size 555
